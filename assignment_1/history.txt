@@ -1,0 +1,234 @@
+    1  cd /fs/lustre/scratch/zimani
+    2  cd /fs/lustre/scratch
+    3  ls
+    4  mdir zimani
+    5  pwd
+    6  ls
+    7  cd ..
+    8  ls
+    9  cd ..
+   10  ls
+   11  cd ..
+   12  ls
+   13  cd fs/lustre/scratch/
+   14  pwd
+   15  mkdir zimani
+   16  mkdir -p zimani
+   17  mkdir -p zimani/CTA200_2025/assignment_1
+   18  ls /fs/lustre/scratch/*/zimani
+   19  cd ..
+   20  pwd
+   21  cd ..
+   22  ls
+   23  mkdir zimani
+   24  cd /fs/lustre/scratch/zimani
+   25  exit
+   26  /cita/local/bin/passwd
+   27  ssh zimani@cosmo4.cita.utoronto.ca
+   28  vncserver
+   29  ssh -L 5901:cosmo4.cita.utoronto.ca:5901
+   30  ssh zimani@cosmo4.cita.utoronto.ca
+   31  ssh zimani@prawn.cita.utoronto.ca
+   32  cd /fs/lustre/scratch/zimani
+   33  mkdir -p CTA200_2025/assignment_1
+   34  ls
+   35  cd CTA200_2025/assignment_1/
+   36  pwd
+   37  ls
+   38  ls -e
+   39  ls -l
+   40  cd ..
+   41  ls -l
+   42  vi README.md
+   43  cd ..
+   44  pwd
+   45  cd ..
+   46  pwd
+   47  cd ..
+   48  pwd
+   49  ls
+   50  cd fs/lustre/scratch/
+   51  ls
+   52  cd murray
+   53  pwd
+   54  ls
+   55  find Hello_world
+   56  find Hello_world*
+   57  find Hello_world.c
+   58  pwd
+   59  cd ..
+   60  pwd
+   61  ls
+   62  cd home
+   63  ls
+   64  pwd
+   65  cd murry
+   66  cd murray
+   67  ls
+   68  find Hello_world
+   69  find Hello_world*
+   70  cd
+   71  pwd
+   72  cd ..
+   73  pwd
+   74  find Hello_world
+   75  find Hello_world*
+   76  pwd
+   77  find Hello_world.c
+   78  ls -l
+   79  pwd
+   80  cd zimnni
+   81  cd zimni
+   82  cd zimani/
+   83  ls -l
+   84  cd /fs/lustre/scratch/zimani
+   85  pwd
+   86  cd ..
+   87  ls -l
+   88  clear
+   89  ls
+   90  ls murray
+   91  find /home/murray -type f -name "Hello_world.c"
+   92  find /home/murray -type f -iname "hello_world.*"
+   93  find /home/murray -type f \( -iname "*.c" -o -iname "*.py" \)
+   94  cp /full/path/to/Hello_world.c .
+   95  cp /full/path/to/Hello_world.py .
+   96  clear
+   97  ls murray
+   98  pwd
+   99  cd bin 
+  100  ls
+  101  pwd
+  102  cd murray/
+  103  ls
+  104  cd bin/
+  105  ls
+  106  cd ..
+  107  cd Pictures
+  108  LS
+  109  ls
+  110  cd ..
+  111  ls
+  112  cd repos/
+  113  ls
+  114  cd ..
+  115  cd scratch-2month/
+  116  LS
+  117  ls
+  118  cd ../scratch-3month/
+  119  ls
+  120  pwd
+  121  cd ../..
+  122  ls
+  123  pwd
+  124  cd murray/
+  125  ls
+  126  ls src/
+  127  ls t
+  128  ls test
+  129  ls tmp
+  130  ls tmp/test
+  131  clear
+  132  pwd
+  133  find ./ -name
+  134  cd home/murray
+  135  cd /home/murray
+  136  find "Hello_world.c"
+  137  find -name "Hello_world.c"
+  138  find /home/murray -type f -name "*.c" -print0 | xargs -0 grep -l "Hello_world.c"
+  139  find . -type f -name "Hello_world.c" 2>/dev/null
+  140  find . -type f -name "*.c" 2>/dev/null -print0 | xargs -0 grep -l "Hello"
+  141  find -name "Hello_world.c"
+  142  cp ./Papers/tmp/Hello_world.c ./CTA200_2025/assignment_1/
+  143  cp ./Papers/tmp/Hello_world.c .fs/lustre/scratch/zimani/CTA200_2025/assignment_1/
+  144  cp ./Papers/tmp/Hello_world.c /fs/lustre/scratch/zimani/CTA200_2025/assignment_1/
+  145  find -name "Hello_world.py"
+  146  cp ./tmp/Hello_world.py /fs/lustre/scratch/zimani/CTA200_2025/assignment_1/
+  147  pwd
+  148  ls /fs/lustre/scratch/zimani/CTA200_2025/assignment_1/
+  149  ls
+  150  pwd
+  151  cd /fs/lustre/scratch/zimani/CTA200_2025/assignment_1/
+  152  ls
+  153  mv Hello_world.c Hello_world_imani.c
+  154  ls
+  155  mv Hello_world.py Hello_world_imani.py
+  156  ls
+  157  module load gcc
+  158  gcc Hello_world_imani.c -o Hello_world.x
+  159  ls
+  160  ./Hello_world.x 
+  161  ./Hello_world.py
+  162  ./Hello_world_imani.py
+  163  python Hello_world_imani.py 
+  164  module load python
+  165  python Hello_world_imani.py 
+  166  python 3.10.2 Hello_world_imani.py 
+  167  prawn$ python 3.10.2 Hello_world_imani.py
+  168  module load python/3.10.2
+  169  python --version
+  170  python Hello_world_imani.py
+  171  vi Hello_world.c
+  172  cat Hello_world.c
+  173  vi Hello_world_imani.c
+  174  vi Hello_world_imani.py
+  175  vim Hello_world_imani.py
+  176  gcc Hello_world_imani.c
+  177  ls
+  178  cat a.out 
+  179  rm a.out 
+  180  ls
+  181  clea
+  182  clear
+  183  ls
+  184  ./Hello_world.x 
+  185  vi Hello_world_imani.C
+  186  ls
+  187  vi Hello_world_imani.c
+  188  gcc Hello_world_imani.c
+  189  ls
+  190  gcc Hello_world_imani.c Hello_world.x
+  191  ls
+  192  clear
+  193  ls
+  194  ./Hello_world.x 
+  195  module load gcc
+  196  gcc Hello_world_imani.c -o Hello_world.x
+  197  ./Hello_world.x
+  198  ls
+  199  cd fs/
+  200  cd /fs/lustre
+  201  pwd
+  202  cd ./scratch
+  203  ls
+  204  cd zimani
+  205  ls
+  206  clear
+  207  pwd
+  208  ls
+  209  cd CTA200_2025/
+  210  ls
+  211  cat Hello_world_imani.c
+  212  cd assignment_1/
+  213  ls
+  214  cat Hello_world_imani.c
+  215  ./Hello_world.x 
+  216  ./Hello_world.x > output_c.txt
+  217  python Hello_world_imani.py 
+  218  load python
+  219  load gcc
+  220  module load python/3.10.2
+  221  python Hello_world_imani.py 
+  222  python Hello_world_imani.py > output_py.txt
+  223  ls
+  224  cat output_c
+  225  cat output_c.txt 
+  226  cat output_py.txt 
+  227  python Hello_world_imani.py > output_python.txt
+  228  ls
+  229  rm output_py.txt 
+  230  clear
+  231  ls
+  232  cat output_python.txt 
+  233  clear
+  234  history > history.txt
